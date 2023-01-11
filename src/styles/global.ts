@@ -12,6 +12,10 @@ export const GlobalStyle = createGlobalStyle`
         outline: 0;
         box-shadow: 0 0 0 2px ${(props) => props.theme["gray-500"]};
     }
+
+    button {
+        cursor: pointer;
+    }
     
     body {
         background-color: ${(props) => props.theme["gray-800"]};
