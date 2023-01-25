@@ -49,4 +49,4 @@ export function SearchFormComponent() {
   )
 }
 
-export const SearchForm = memo(SearchFormComponent);
+export const SearchForm = memo(SearchFormComponent)
